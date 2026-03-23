@@ -9,27 +9,30 @@ AI-powered CLI tool that analyzes, tags, and scores your photos using GPT-5.4 Vi
 ```
 $ python main.py --input ./photos --output ./results
 
-Processing photos: 100%|████████████████| 24/24 [02:18<00:00]
+Processing photos: 100%|██████████████████| 121/121 [14:53<00:00]
 
-────────────────────────────────────────
- SUMMARY
-────────────────────────────────────────
- Photos processed : 24
- Errors           : 1
- Average score    : 673.4/1000
+  SUMMARY
+  ──────────────────────────────────
+  Photos processed : 121
+  Errors           : 0
+  Average score    : 673.4/1000
 
- Top-8 by quality:
-  1. [912/1000] DSC04821.ARW
-  2. [889/1000] IMG_0034.CR3
-  3. [856/1000] P1003847.RW2
-  ...
+  Top-8 by quality:
+   1. [782/1000] P1042721.RW2
+   2. [772/1000] P1042872.RW2
+   3. [742/1000] P1042675.RW2
+   ...
 
- RECOMMENDED FOR STORIES (score 700+):
-  [912/1000] DSC04821.ARW
-  [889/1000] IMG_0034.CR3
-  [856/1000] P1003847.RW2
-  [741/1000] _DSC2201.NEF
-────────────────────────────────────────
+  RECOMMENDED FOR STORIES (score 700+):
+   [782/1000] P1042721.RW2
+   [772/1000] P1042872.RW2
+   [742/1000] P1042675.RW2
+   [742/1000] P1042677.RW2
+   [742/1000] P1042678.RW2
+   [742/1000] P1042696.RW2
+   [742/1000] P1042714.RW2
+   [742/1000] P1042720.RW2
+  ──────────────────────────────────
 
 Results saved to ./results/results.csv and ./results/results.json
 ```
